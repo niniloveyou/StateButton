@@ -16,5 +16,8 @@
 
         <attr name="radius" format="dimension|reference"/>
         <attr name="strokeWidth" format="dimension|reference"/>
+        <attr name="strokeDashWidth" format="dimension|reference"/>
+        <attr name="strokeDashGap" format="dimension|reference"/>
+
     </declare-styleable>
 </resources>

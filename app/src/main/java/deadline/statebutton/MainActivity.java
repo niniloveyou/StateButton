@@ -6,18 +6,30 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    StateButton mStateButton1;
+    StateButton text;
+
+    StateButton stroke;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mStateButton1 = (StateButton) findViewById(R.id.state_button_1);
-        mStateButton1.setOnClickListener(new View.OnClickListener() {
+        text = (StateButton) findViewById(R.id.text_test);
+        text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(mStateButton1.isEnabled()) {
-                    mStateButton1.setEnabled(false);
+                if(text.isEnabled()) {
+                    text.setEnabled(false);
+                }
+            }
+        });
+
+        stroke = (StateButton) findViewById(R.id.stroke_test);
+        stroke.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(stroke.isEnabled()) {
+                    stroke.setEnabled(false);
                 }
             }
         });

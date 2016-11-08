@@ -8,11 +8,28 @@
 
     <deadline.statebutton.StateButton
        android:background="@android:color/holo_blue_light"
-        android:id="@+id/state_button_1"
+        android:id="@+id/text_test"
         app:normalTextColor="@android:color/black"
         app:pressedTextColor="@android:color/holo_red_light"
         app:unableTextColor="@android:color/holo_orange_dark"
-        android:text ="stateButton1"
+        android:text ="text_test"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <deadline.statebutton.StateButton
+        android:id="@+id/stroke_test"
+        app:normalStrokeColor="@android:color/black"
+        app:pressedStrokeColor="@android:color/holo_red_light"
+        app:unableStrokeColor="@android:color/holo_orange_dark"
+        app:radius="5dp"
+        app:strokeWidth="5dp"
+        app:strokeDashWidth="5dp"
+        app:strokeDashGap="5dp"
+        app:pressedBackgroundColor="@android:color/holo_red_light"
+        android:text ="stroke test ..."
         android:layout_margin="10dp"
         android:padding="10dp"
         android:layout_gravity="center_horizontal"
