@@ -30,6 +30,7 @@ public class StateButton extends AppCompatButton{
 
     //radius
     private float mRadius = 0;
+    private boolean mRound;
 
     //stroke
     private float mStrokeDashWidth = 0;
@@ -116,6 +117,7 @@ public class StateButton extends AppCompatButton{
 
         //set radius
         mRadius = a.getDimensionPixelSize(R.styleable.StateButton_radius, 0);
+        mRound = a.getBoolean(R.styleable.StateButton_round, false);
         mNormalBackground.setCornerRadius(mRadius);
         mPressedBackground.setCornerRadius(mRadius);
         mUnableBackground.setCornerRadius(mRadius);
@@ -138,6 +140,16 @@ public class StateButton extends AppCompatButton{
         mStateBackground.addState(states[3], mUnableBackground);
         setBackgroundDrawable(mStateBackground);
         a.recycle();
+    }
+
+
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        int height = getMeasuredHeight();
+        if(mRound){
+            setRadius(height / 2f);
+        }
     }
 
     /****************** stroke color *********************/

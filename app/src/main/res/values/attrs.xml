@@ -24,8 +24,10 @@
 
         <!--background radius-->
         <attr name="radius" format="dimension|reference"/>
+        <attr name="round" format="boolean|reference"/>
 
         <!--animation duration-->
         <attr name="animationDuration" format="integer|reference"/>
+
     </declare-styleable>
 </resources>
