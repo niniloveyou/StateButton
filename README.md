@@ -3,8 +3,11 @@
 中文版这里： 
 
 Do you hate to write a background for each button?
+
 Do you hate to write a bunch of selector?
+
 That's why I'm writing this view.
+
 
 Here to download demo:
 https://play.google.com/store/apps/details?id=info.hoang8f.fbutton.demo
@@ -26,19 +29,19 @@ Customizable attributes
 | normalTextColor        |   original text color  | normalTextColor          | setNormalTextColor(int color)       |
 | pressedTextColor       |   original text color  | pressedTextColor          | setPressedTextColor(int color)       |
 | unableTextColor        |   original text color  | unableTextColor          | setUnableTextColor(int color)       |
-| strokeDashWidth        |   0  | strokeDashWidth          | setNormalTextColor(int color)       |
-| strokeDashGap        |   0  | strokeDashGap          | setNormalTextColor(int color)       |
-| normalStrokeWidth        |   0  | normalStrokeWidth          | setNormalTextColor(int color)       |
-| pressedStrokeWidth        |   0  | pressedStrokeWidth          | setNormalTextColor(int color)       |
-| unableStrokeWidth        |   0  | unableStrokeWidth          | setNormalTextColor(int color)       |
-| normalStrokeColor        |   0  | normalStrokeColor          | setNormalTextColor(int color)       |
-| pressedStrokeColor        |   0  | pressedStrokeColor          | setNormalTextColor(int color)       |
-| unableStrokeColor        |   0  | unableStrokeColor          | setNormalTextColor(int color)       |
-| normalBackgroundColor        |   0  | normalBackgroundColor          | setNormalTextColor(int color)       |
-| pressedBackgroundColor        |   0  | pressedBackgroundColor   | setNormalTextColor(int color)       |
-| unableBackgroundColor        |   0  | unableBackgroundColor          | setNormalTextColor(int color)       |
-| radius        |   0  | radius          | setNormalTextColor(int color)       |
-| round        |  false  | round          | setNormalTextColor(int color)       |
+| strokeDashWidth        |   0  | strokeDashWidth          | setStrokeDash(int dashWidth, int dashGap)       |
+| strokeDashGap        |   0  | strokeDashGap          | setStrokeDash(int dashWidth, int dashGap)      |
+| normalStrokeWidth        |   0  | normalStrokeWidth          | setNormalStrokeWidth(int widht)       |
+| pressedStrokeWidth        |   0  | pressedStrokeWidth          | setPressedStrokeWidth(int widht)        |
+| unableStrokeWidth        |   0  | unableStrokeWidth          | setUnableStrokeWidth(int widht)        |
+| normalStrokeColor        |   0  | normalStrokeColor          | setNormalStrokeColor(int color)       |
+| pressedStrokeColor        |   0  | pressedStrokeColor          | setPressedStrokeColor(int color)       |
+| unableStrokeColor        |   0  | unableStrokeColor          | setUnableStrokeColor(int color)       |
+| normalBackgroundColor        |   0  | normalBackgroundColor          | setNormalBackgroundColor(int color)       |
+| pressedBackgroundColor        |   0  | pressedBackgroundColor   | setPressedBackgroundColor(int color)       |
+| unableBackgroundColor        |   0  | unableBackgroundColor          | setUnableBackgroundColor(int color)       |
+| radius        |   0  | radius          | setRadius(int radius) / setRadius(float[] radii)      |
+| round        |  false  | round          | setRound(boolean round)       |
 | animationDuration        |   0ms  | animationDuration          | setAnimationDuration(int duration)       |
 
 Usage
@@ -49,25 +52,36 @@ If the default values of custom attribues did not meet your requirement, you can
 -  Define `xmlns:fbutton="http://schemas.android.com/apk/res-auto"` on root of your xml file
 
 ```xml
-<info.hoang8f.widget.FButton
-    ...
-   fbutton:buttonColor="@color/color_concrete"
-   fbutton:shadowColor="@color/color_asbestos"
-   fbutton:shadowEnabled="true"
-   fbutton:shadowHeight="5dp"
-   fbutton:cornerRadius="5dp"
-    ...
-     />
+<deadline.statebutton.StateButton
+            android:id="@+id/stateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="StateButton"
+            
+            app:radius="5dp"
+            app:round="true"
+            app:animationDuration="200"
+            
+            app:strokeDashGap="2dp"
+            app:strokeDashWidth="5dp"
+            app:normalStrokeWidth="2dp"
+            app:pressedStrokeWidth="2dp"
+            app:unableStrokeWidth="2dp"
+            
+            app:normalStrokeColor="@android:color/white"
+            app:pressedStrokeColor="@android:color/white"
+            app:unableStrokeColor="@android:color/white"
+            
+            app:normalTextColor="@android:color/white"
+            app:pressedTextColor="@android:color/white"
+            app:unableTextColor="@android:color/white"
+            
+            app:normalBackgroundColor="@color/colorPrimaryDark"
+            app:pressedBackgroundColor="@color/colorPrimaryDark"
+            app:unableBackgroundColor="@color/colorPrimaryDark"/>
 ```
 
-### via code (sample)
-```java
-disabledBtn.setButtonColor(getResources().getColor(R.color.color_concrete));
-disabledBtn.setShadowColor(getResources().getColor(R.color.color_asbestos));
-disabledBtn.setShadowEnabled(true);
-disabledBtn.setShadowHeight(5);
-disabledBtn.setCornerRadius(5);
-```
 
 
 Developed By
