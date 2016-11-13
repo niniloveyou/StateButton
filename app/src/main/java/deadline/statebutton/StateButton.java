@@ -55,7 +55,6 @@ public class StateButton extends AppCompatButton{
 
     StateListDrawable mStateBackground;
 
-
     public StateButton(Context context) {
         this(context, null);
     }
