@@ -1,6 +1,6 @@
 # StateButton
 
-中文版这里： 
+###中文版这里： https://github.com/niniloveyou/StateButton/blob/master/README_CHINESE.md
 
 Do you hate to write a background for each button?
 
@@ -11,7 +11,7 @@ That's why I'm writing this view.
 
 Here to download demo
 ----------
-https://github.com/niniloveyou/StateButton/blob/master/StateButton.apk
+https://github.com/niniloveyou/StateButton/blob/master/demo.apk
 
 Screenshot
 ----------
