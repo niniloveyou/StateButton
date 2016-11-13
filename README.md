@@ -15,6 +15,9 @@ https://github.com/niniloveyou/StateButton/blob/master/demo.apk
 
 Screenshot
 ----------
+
+![](https://github.com/niniloveyou/StateButton/blob/master/image.png)
+
 ![](https://github.com/niniloveyou/StateButton/blob/master/stateButton.gif)
 
 ###Manually

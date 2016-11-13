@@ -10,6 +10,9 @@ https://github.com/niniloveyou/StateButton/blob/master/demo.apk
 
 截图：
 ----------
+
+![](https://github.com/niniloveyou/StateButton/blob/master/image.png)
+
 ![stateButton](https://github.com/niniloveyou/StateButton/blob/master/stateButton.gif)
 
 ###Manually
