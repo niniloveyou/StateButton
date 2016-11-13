@@ -146,10 +146,7 @@ public class StateButton extends AppCompatButton{
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        int height = getMeasuredHeight();
-        if(mRound){
-            setRadius(height / 2f);
-        }
+        setRound(mRound);
     }
 
     /****************** stroke color *********************/
