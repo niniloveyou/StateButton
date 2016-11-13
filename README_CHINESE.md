@@ -6,7 +6,7 @@
 
 demo 下载地址：
 ----------
-https://github.com/niniloveyou/StateButton/blob/master/StateButton.apk
+https://github.com/niniloveyou/StateButton/blob/master/demo.apk
 
 截图：
 ----------
