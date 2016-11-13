@@ -9,12 +9,13 @@ Do you hate to write a bunch of selector?
 That's why I'm writing this view.
 
 
-Here to download demo:
-https://play.google.com/store/apps/details?id=info.hoang8f.fbutton.demo
+Here to download demo
+----------
+https://github.com/niniloveyou/StateButton/blob/master/StateButton.apk
 
 Screenshot
 ----------
-![](https://raw.githubusercontent.com/hoang8f/android-flat-button/master/screenshot/screenshot.gif)
+![](https://github.com/niniloveyou/StateButton/blob/master/stateButton.gif)
 
 ###Manually
 Copy/merge the following files to corresponding folder/file:
