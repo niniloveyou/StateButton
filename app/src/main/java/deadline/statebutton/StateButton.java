@@ -225,6 +225,14 @@ public class StateButton extends AppCompatButton{
         mUnableBackground.setCornerRadius(mRadius);
     }
 
+    public void setRound(boolean round){
+        this.mRound = round;
+        int height = getMeasuredHeight();
+        if(mRound){
+            setRadius(height / 2f);
+        }
+    }
+
     public void setRadius(float[] radii){
         mNormalBackground.setCornerRadii(radii);
         mPressedBackground.setCornerRadii(radii);
