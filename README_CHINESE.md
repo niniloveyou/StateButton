@@ -46,7 +46,7 @@ Customizable attributes
 
 
 ### xml中定义了以下属性
--  Define `xmlns:fbutton="http://schemas.android.com/apk/res-auto"` on root of your xml file
+-  Define `xmlns:app="http://schemas.android.com/apk/res-auto"` on root of your xml file
 
 ```xml
 <deadline.statebutton.StateButton
