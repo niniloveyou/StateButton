@@ -84,10 +84,10 @@ public class StateButton extends AppCompatButton{
         mUnableBackground = new GradientDrawable();
 
         //pressed, focused, normal, unable
-        states[0] = new int[] { android.R.attr.state_pressed, android.R.attr.state_enabled };
+        states[0] = new int[] { android.R.attr.state_enabled, android.R.attr.state_pressed };
         states[1] = new int[] { android.R.attr.state_enabled, android.R.attr.state_focused };
+        states[3] = new int[] { -android.R.attr.state_enabled};
         states[2] = new int[] { android.R.attr.state_enabled };
-        states[3] = new int[] { android.R.attr.state_window_focused };
 
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.StateButton);
 
@@ -135,8 +135,8 @@ public class StateButton extends AppCompatButton{
         //set background
         mStateBackground.addState(states[0], mPressedBackground);
         mStateBackground.addState(states[1], mPressedBackground);
-        mStateBackground.addState(states[2], mNormalBackground);
         mStateBackground.addState(states[3], mUnableBackground);
+        mStateBackground.addState(states[2], mNormalBackground);
         setBackgroundDrawable(mStateBackground);
         a.recycle();
     }
