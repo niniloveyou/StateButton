@@ -53,7 +53,7 @@ Usage
 If the default values of custom attribues did not meet your requirement, you can easily re-config that attributes. This is sample code that you can refer. you can also browse demo app for more details.
 
 ### via xml (sample)
--  Define `xmlns:fbutton="http://schemas.android.com/apk/res-auto"` on root of your xml file
+-  Define `xmlns:app="http://schemas.android.com/apk/res-auto"` on root of your xml file
 
 ```xml
 <deadline.statebutton.StateButton
