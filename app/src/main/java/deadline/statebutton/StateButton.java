@@ -105,6 +105,7 @@ public class StateButton extends AppCompatButton{
         //set animation duration
         mDuration = a.getInteger(R.styleable.StateButton_animationDuration, mDuration);
         mStateBackground.setEnterFadeDuration(mDuration);
+        mStateBackground.setExitFadeDuration(mDuration);
 
         //set background color
         mNormalBackgroundColor = a.getColor(R.styleable.StateButton_normalBackgroundColor, 0);
