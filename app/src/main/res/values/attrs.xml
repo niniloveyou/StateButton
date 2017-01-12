@@ -30,4 +30,13 @@
         <attr name="animationDuration" format="integer|reference"/>
 
     </declare-styleable>
+    
+        <declare-styleable name="StateImageView">
+        <attr name="normalBackground" format="color|reference"/>
+        <attr name="pressedBackground" format="color|reference"/>
+        <attr name="unableBackground" format="color|reference"/>
+
+        <!--animation duration-->
+        <attr name="AnimationDuration" format="integer|reference"/>
+    </declare-styleable>
 </resources>
