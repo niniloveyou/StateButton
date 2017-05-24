@@ -1,4 +1,4 @@
-package net.chuangdie.mcxd.ui.widget;
+package deadline.statebutton;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,8 +7,6 @@ import android.graphics.drawable.StateListDrawable;
 import android.support.annotation.IntRange;
 import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
-
-import net.chuangdie.mcxd.R;
 
 /**
  * Created by deadline on 2017/1/11.
