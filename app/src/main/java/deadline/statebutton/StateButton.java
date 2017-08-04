@@ -239,8 +239,8 @@ public class StateButton extends AppCompatButton{
     /********************  background color  **********************/
 
     public void setStateBackgroundColor(@ColorInt int normal, @ColorInt int pressed, @ColorInt int unable){
-        mPressedBackgroundColor = normal;
-        mNormalBackgroundColor = pressed;
+        mNormalBackgroundColor = normal;
+        mPressedBackgroundColor = pressed;
         mUnableBackgroundColor = unable;
         mNormalBackground.setColor(mNormalBackgroundColor);
         mPressedBackground.setColor(mPressedBackgroundColor);
