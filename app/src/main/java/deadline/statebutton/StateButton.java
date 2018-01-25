@@ -140,10 +140,6 @@ public class StateButton extends AppCompatButton{
         mStateBackground.addState(states[2], mNormalBackground);
         setBackgroundDrawable(mStateBackground);
         a.recycle();
-        
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            setStateListAnimator(null);
-        }
     }
 
 
