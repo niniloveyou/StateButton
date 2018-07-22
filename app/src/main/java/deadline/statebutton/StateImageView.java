@@ -13,7 +13,7 @@ import android.util.AttributeSet;
  * 根据用户点击状态设置不同的图片
  */
 
-public class StateImageView extends AppCompatImageView{
+public class StateImageView extends AppCompatImageView {
 
     private Drawable mNormalDrawable;
 

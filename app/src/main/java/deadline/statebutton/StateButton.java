@@ -17,7 +17,7 @@ import android.util.AttributeSet;
  * @time 2016-11-07
  */
 
-public class StateButton extends AppCompatButton{
+public class StateButton extends AppCompatButton {
 
     //text color
     private int mNormalTextColor = 0;
