@@ -48,16 +48,14 @@ class MainActivity : AppCompatActivity() {
         dash.setOnClickListener { dash.isEnabled = false }
 
         tvExtend = findViewById(R.id.tv_extend)
-        tvExtend.setOnClickListener { Toast.makeText(this@MainActivity, "lal", Toast.LENGTH_SHORT).show() }
+        tvExtend.setOnClickListener { Toast.makeText(this@MainActivity, "lalala", Toast.LENGTH_SHORT).show() }
 
         tvExtend.setState(StateConfig.newBuilder()
-                .setNormalBackgroundColor(Color.RED)
-                .setPressedBackgroundColor(Color.GREEN)
-                .setUnableBackgroundColor(Color.RED)
+                .setNormalBackgroundColor(Color.GRAY)
+                .setPressedBackgroundColor(Color.DKGRAY)
                 .setNormalTextColor(Color.WHITE)
-                .setPressedTextColor(Color.DKGRAY)
-                .setDuration(300)
-                .setRadius(30f)
+                .setPressedTextColor(Color.parseColor("#80ffffff"))
+                .setRadius(20f)
                 .build())
     }
 }

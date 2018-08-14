@@ -50,8 +50,8 @@ fun View.setState(@NonNull config: StateConfig) {
 
     mStateBackground.addState(states[0], mPressedBackground)
     mStateBackground.addState(states[1], mPressedBackground)
-    mStateBackground.addState(states[3], mUnableBackground)
-    mStateBackground.addState(states[2], mNormalBackground)
+    mStateBackground.addState(states[2], mUnableBackground)
+    mStateBackground.addState(states[3], mNormalBackground)
 
     mStateBackground.apply {
         setEnterFadeDuration(config.duration)

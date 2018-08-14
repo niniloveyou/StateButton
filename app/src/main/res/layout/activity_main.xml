@@ -20,6 +20,7 @@
             android:layout_margin="20dp"
             android:textColor="@android:color/white"
             android:layout_gravity="center_horizontal"
+            android:foreground="?selectableItemBackground"
             android:text="扩展属性测试"/>
 
         <deadline.statebutton.StateButton
