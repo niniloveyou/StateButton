@@ -23,7 +23,7 @@
             android:foreground="?selectableItemBackground"
             android:text="扩展属性测试"/>
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/text_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
             app:unableTextColor="@android:color/holo_orange_dark"/>
 
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/background_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             app:unableBackgroundColor="@android:color/holo_red_light"/>
 
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/radius_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
             app:radius="10dp"
             app:unableBackgroundColor="@android:color/holo_red_light"/>
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/round_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
             app:radius="2dp"
             app:unableBackgroundColor="@android:color/holo_red_light"/>
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/different_radius_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
             app:pressedBackgroundColor="@color/colorPrimaryDark"
             app:unableBackgroundColor="@android:color/holo_red_light"/>
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/dash_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
             app:unableStrokeWidth="2dp"
             app:unableTextColor="@android:color/holo_orange_dark"/>
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/stroke_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
             app:unableStrokeWidth="2dp"
             app:unableTextColor="@android:color/holo_orange_dark"/>
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/stroke_background_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
             app:pressedBackgroundColor="@color/colorPrimaryDark"
             app:pressedTextColor="@android:color/white"/>
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/stroke_background_test2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
             app:pressedBackgroundColor="@color/colorPrimaryDark"
             app:pressedTextColor="@android:color/white"/>
 
-        <deadline.statebutton.StateButton
+        <com.deadline.statebutton.StateButton
             android:id="@+id/stroke_background_animation_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

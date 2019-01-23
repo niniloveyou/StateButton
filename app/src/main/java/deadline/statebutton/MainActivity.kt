@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import com.deadline.statebutton.StateButton
+import com.deadline.statebutton.StateConfig
+import com.deadline.statebutton.setState
 
 class MainActivity : AppCompatActivity() {
 

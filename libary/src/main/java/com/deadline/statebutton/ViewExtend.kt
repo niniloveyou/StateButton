@@ -1,4 +1,4 @@
-package deadline.statebutton
+package com.deadline.statebutton
 
 import android.content.res.ColorStateList
 import android.graphics.drawable.GradientDrawable

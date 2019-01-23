@@ -1,4 +1,4 @@
-package deadline.statebutton;
+package com.deadline.statebutton;
 
 import android.content.Context;
 import android.content.res.TypedArray;
