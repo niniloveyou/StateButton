@@ -20,9 +20,21 @@ Screenshot
 
 ![](https://github.com/niniloveyou/StateButton/blob/master/stateButton.gif)
 
-###Manually
+### Download
+```
+   allprojects {
+       repositories {
+           ......
+           maven { url 'https://jitpack.io' }
+       }
+   }
+   implementation 'com.github.niniloveyou:StateButton:v1.0.0'
+   
+```   
+
+### Manually
 Copy/merge the following files to corresponding folder/file:
-   + deadline/stabutton/StateButton.java
+   + deadline/statebutton/StateButton.java
    + res/values/attrs.xml
 
 Customizable attributes
