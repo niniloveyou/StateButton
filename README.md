@@ -32,11 +32,6 @@ Screenshot
    
 ```   
 
-### Manually
-Copy/merge the following files to corresponding folder/file:
-   + deadline/statebutton/StateButton.java
-   + res/values/attrs.xml
-
 Customizable attributes
 -----------------------
 
