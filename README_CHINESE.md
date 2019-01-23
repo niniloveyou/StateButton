@@ -15,12 +15,17 @@ https://github.com/niniloveyou/StateButton/blob/master/demo.apk
 
 ![stateButton](https://github.com/niniloveyou/StateButton/blob/master/stateButton.gif)
 
-###Manually
-
-你只需要这添加这两个文件就可以使用了！
-   + deadline/stabutton/StateButton.java
-   + res/values/attrs.xml
-
+### Download
+```
+   allprojects {
+       repositories {
+           ......
+           maven { url 'https://jitpack.io' }
+       }
+   }
+   implementation 'com.github.niniloveyou:StateButton:v1.0.0'
+   
+```   
 Customizable attributes
 -----------------------
 
